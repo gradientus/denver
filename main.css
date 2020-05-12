@@ -1,0 +1,105 @@
+html {
+  box-sizing: border-box;
+  font-family: Georgia, Times, serif;
+  font-size: 10px;
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: gray;
+}
+
+h1,
+#byline,
+figcaption {
+  text-align: center;
+}
+
+h1 {
+  font-size: 5rem;
+  margin-bottom: 0;
+}
+
+#byline {
+  font-size: 3rem;
+  margin-top: 0;
+  font-style: italic;
+}
+
+#img-div {
+  background-color: rgba(198, 199, 162, 0.3);
+  border-radius: 5px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding-top: 3rem;
+  border-radius: 5px;
+}
+
+figcaption {
+  padding-bottom: 0.8rem;
+  color: #151515;
+  font-weight: bold;
+  font-size: 1.5rem;
+  letter-spacing: 4px;
+}
+
+#tribute-info {
+  font-size: 2rem;
+  color: ivory;
+  margin: 4px auto;
+}
+
+.year {
+  font-weight: bold;
+  color: white;
+}
+
+li {
+  list-style: none;
+  line-height: 1.5;
+}
+
+#quote {
+  color: skyblue;
+  font-style: italic;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+#more-info {
+  text-align: center;
+  color: ivory;
+  font-size: 1.5rem;
+}
+
+#tribute-link {
+  color: white;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+#tribute-link:link {
+  color: white;
+}
+#tribute-link:visited {
+  color: white;
+}
+#tribute-link:hover {
+  color: orange;
+  font-size: 1.7rem;
+}
+#tribute-link:active {
+  color: white;
+}
